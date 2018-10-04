@@ -1,0 +1,21 @@
+{
+  "name": "laravel_migration_snippets",
+  "version": "1.0.0",
+  "description": "Sublime Snippets for Laravel Migrations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceloxp/laravel_migration_snippets.git"
+  },
+  "keywords": [
+    "laravel",
+    "laravel-framework",
+    "sublime-text-3",
+    "sublime-snippets"
+  ],
+  "author": "MarceloXP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marceloxp/laravel_migration_snippets/issues"
+  },
+  "homepage": "https://github.com/marceloxp/laravel_migration_snippets#readme"
+}

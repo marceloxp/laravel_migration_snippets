@@ -2,7 +2,7 @@
 
 > Sublime Snippets for Laravel Migrations
 
-This plugin for Sublime Text 2|3 allows you to have quick access to most common migration commands.
+This plugin for Sublime Text 3 allows you to have quick access to most common migration commands.
 
 ## Final Example
 
