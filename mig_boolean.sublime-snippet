@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_boolean</tabTrigger>
+	<scope>source.php</scope>
+	<description>MIG Boolean Migrate</description>
+	<content><![CDATA[
+\$table->boolean('${1:field_name}')${2:->default(true)}${3:->default(false)};
+]]></content>
+</snippet>

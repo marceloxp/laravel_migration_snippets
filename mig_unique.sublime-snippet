@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_unique</tabTrigger>
+	<scope>source.php</scope>
+	<description>MIG Unique Index Migrate</description>
+	<content><![CDATA[
+\$table->unique(['${1:field_name}']);
+]]></content>
+</snippet>

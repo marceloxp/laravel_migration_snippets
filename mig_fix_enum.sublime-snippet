@@ -1,0 +1,12 @@
+<snippet>
+	<tabTrigger>mig_fix_enum</tabTrigger>
+	<scope>source.php</scope>
+	<description>MIG Fix Enum Migrate</description>
+	<doc>Add this code on migration file to change tables that contains any enum field type</doc>
+	<content><![CDATA[
+public function __construct()
+{
+	DB::getDoctrineSchemaManager()->getDatabasePlatform()->registerDoctrineTypeMapping('enum', 'string');
+}
+]]></content>
+</snippet>
