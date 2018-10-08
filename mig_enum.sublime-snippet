@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_enum</tabTrigger>
+	<scope>source.php</scope>
+	<description>enum</description>
+	<content><![CDATA[
+\$table->enum('${1:field_name}', [${2:field_values}]);
+]]></content>
+</snippet>

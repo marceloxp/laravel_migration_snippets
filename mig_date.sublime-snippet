@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_date</tabTrigger>
+	<scope>source.php</scope>
+	<description>date</description>
+	<content><![CDATA[
+\$table->date('${1:field_name}')${3:->unique()}${4:->nullable()}${5:->default(${6:field_default})}${7:->comment('${8:field_comment}')};
+]]></content>
+</snippet>

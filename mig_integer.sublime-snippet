@@ -1,7 +1,7 @@
 <snippet>
 	<tabTrigger>mig_integer</tabTrigger>
 	<scope>source.php</scope>
-	<description>MIG Integer Migrate</description>
+	<description>Integer</description>
 	<content><![CDATA[
 \$table->integer('${1:field_name}')${2:->unsigned()}${3:->comment('${4:field_comment}')};
 ]]></content>

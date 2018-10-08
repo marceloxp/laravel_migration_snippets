@@ -1,7 +1,7 @@
 <snippet>
 	<tabTrigger>mig_soft_deletes</tabTrigger>
 	<scope>source.php</scope>
-	<description>MIG Soft Del Migrate</description>
+	<description>Soft Del</description>
 	<content><![CDATA[
 \$table->softDeletes();
 ]]></content>

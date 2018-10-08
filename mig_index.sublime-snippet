@@ -1,7 +1,7 @@
 <snippet>
 	<tabTrigger>mig_index</tabTrigger>
 	<scope>source.php</scope>
-	<description>MIG Index Migrate</description>
+	<description>Index</description>
 	<content><![CDATA[
 \$table->index('${1:field_name}');
 ]]></content>

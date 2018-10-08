@@ -1,7 +1,7 @@
 <snippet>
 	<tabTrigger>mig_text</tabTrigger>
 	<scope>source.php</scope>
-	<description>MIG Text Migrate</description>
+	<description>Text</description>
 	<content><![CDATA[
 \$table->text('${1:field_name}')${2:->comment('${3:field_comment}')};
 ]]></content>
