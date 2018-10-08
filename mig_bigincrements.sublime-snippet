@@ -1,7 +1,7 @@
 <snippet>
 	<tabTrigger>mig_bigincrements</tabTrigger>
 	<scope>source.php</scope>
-	<description>big increments</description>
+	<description>Big Increments</description>
 	<content><![CDATA[
 \$table->bigIncrements('${1:field_name}')${2:->comment('${3:field_comment}')};
 ]]></content>

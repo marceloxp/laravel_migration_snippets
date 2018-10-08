@@ -1,7 +1,7 @@
 <snippet>
 	<tabTrigger>mig_binary</tabTrigger>
 	<scope>source.php</scope>
-	<description>binary</description>
+	<description>Binary</description>
 	<content><![CDATA[
 \$table->binary('${1:field_name}')${2:->comment('${3:field_comment}')};
 ]]></content>

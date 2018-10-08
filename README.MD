@@ -16,7 +16,19 @@ $table->string('field_name', 255)->unique()->nullable()->default('Default')->com
 
 ## Field Types
 
+- Big Increments
+- Binary
 - Boolean
+- Char
+- Date
+- Date Time
+- Date Time Tz
+- Decimal
+- Double
+- Enum
+- Float
+- Geometry
+- Geometry Collection
 - Index
 - Integer
 - String

@@ -1,7 +1,7 @@
 <snippet>
 	<tabTrigger>mig_datetimetz</tabTrigger>
 	<scope>source.php</scope>
-	<description>dateTimeTz</description>
+	<description>Date Time Tz</description>
 	<content><![CDATA[
 \$table->dateTimeTz('${1:field_name}')${3:->unique()}${4:->nullable()}${5:->default(${6:field_default})}${7:->comment('${8:field_comment}')};
 ]]></content>
