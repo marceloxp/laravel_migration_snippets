@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_fk</tabTrigger>
+	<scope>source.php</scope>
+	<description>Foreign Key</description>
+	<content><![CDATA[
+\$table->foreign('${1:local_field}')->references('${2:foreign_id}')->on('${3:foreign_table}');
+]]></content>
+</snippet>
