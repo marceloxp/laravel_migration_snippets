@@ -3,6 +3,6 @@
 	<scope>source.php</scope>
 	<description>Boolean</description>
 	<content><![CDATA[
-\$table->boolean('${1:field_name}')${2:->default(true)}${3:->default(false)};
+\$table->boolean('${1:field_name}')${2:->default(false)}${3:->comment('${4:field_comment}')}${5:->after('${6:field_name}')};
 ]]></content>
 </snippet>

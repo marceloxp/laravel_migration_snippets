@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_long_text</tabTrigger>
+	<scope>source.php</scope>
+	<description>Big Text</description>
+	<content><![CDATA[
+\$table->longText('${1:field_name}')${2:->comment('${3:field_comment}')}${4:->after('${5:field_name}')};
+]]></content>
+</snippet>

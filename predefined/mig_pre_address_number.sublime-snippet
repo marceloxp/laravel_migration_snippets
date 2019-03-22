@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_pre_address_number</tabTrigger>
+	<scope>source.php</scope>
+	<description>Endereço - Número</description>
+	<content><![CDATA[
+\$table->string('address_number', 64)->nullable()->comment('Número');
+]]></content>
+</snippet>

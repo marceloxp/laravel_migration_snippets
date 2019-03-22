@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_pre_born</tabTrigger>
+	<scope>source.php</scope>
+	<description>Nascimento</description>
+	<content><![CDATA[
+\$table->string('born', 10)->comment('Nascimento');
+]]></content>
+</snippet>

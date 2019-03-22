@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_pre_phone</tabTrigger>
+	<scope>source.php</scope>
+	<description>DDD</description>
+	<content><![CDATA[
+\$table->string('phone', 24)->comment('Telefone');
+]]></content>
+</snippet>

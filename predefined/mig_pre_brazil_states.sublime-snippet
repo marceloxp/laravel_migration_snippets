@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_pre_brazil_states</tabTrigger>
+	<scope>source.php</scope>
+	<description>States</description>
+	<content><![CDATA[
+\$table->enum('state', ['AC','AL','AM','AP','BA','CE','DF','ES','GO','MA','MT','MS','MG','PA','PB','PR','PE','PI','RJ','RN','RO','RS','RR','SC','SE','SP','TO'])->comment('Estado');
+]]></content>
+</snippet>

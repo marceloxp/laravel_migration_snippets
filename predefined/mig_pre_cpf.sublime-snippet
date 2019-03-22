@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_pre_cpf</tabTrigger>
+	<scope>source.php</scope>
+	<description>CPF</description>
+	<content><![CDATA[
+\$table->string('cpf', 24)->comment('CPF');
+]]></content>
+</snippet>

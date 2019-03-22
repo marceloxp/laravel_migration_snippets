@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_pre_flags</tabTrigger>
+	<scope>source.php</scope>
+	<description>Flags</description>
+	<content><![CDATA[
+\$table->integer('flags')->default(0)->comment('Flags');
+]]></content>
+</snippet>

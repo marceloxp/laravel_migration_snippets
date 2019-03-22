@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_pre_neighborhood</tabTrigger>
+	<scope>source.php</scope>
+	<description>Bairro</description>
+	<content><![CDATA[
+\$table->string('neighborhood', 128)->comment('Bairro');
+]]></content>
+</snippet>

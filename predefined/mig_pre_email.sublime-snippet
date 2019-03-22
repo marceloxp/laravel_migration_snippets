@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_pre_email</tabTrigger>
+	<scope>source.php</scope>
+	<description>E-Mail</description>
+	<content><![CDATA[
+\$table->string('email', 128)->comment('E-Mail');
+]]></content>
+</snippet>

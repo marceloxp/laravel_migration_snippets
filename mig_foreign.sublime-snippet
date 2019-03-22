@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_foreign</tabTrigger>
+	<scope>source.php</scope>
+	<description>Foreign</description>
+	<content><![CDATA[
+\$table->foreign('${1:index_field_name}')->references('id')->on('${2:table_name}');
+]]></content>
+</snippet>

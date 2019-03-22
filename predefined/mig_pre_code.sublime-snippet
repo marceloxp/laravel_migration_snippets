@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_pre_code</tabTrigger>
+	<scope>source.php</scope>
+	<description>Código</description>
+	<content><![CDATA[
+\$table->string('code', 64)->comment('Código');
+]]></content>
+</snippet>

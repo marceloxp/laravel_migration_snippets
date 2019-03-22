@@ -1,0 +1,8 @@
+<snippet>
+	<tabTrigger>mig_pre_phone_prefix</tabTrigger>
+	<scope>source.php</scope>
+	<description>DDD</description>
+	<content><![CDATA[
+\$table->string('phone_prefix', 3)->comment('DDD');
+]]></content>
+</snippet>
